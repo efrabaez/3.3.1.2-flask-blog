@@ -13,7 +13,9 @@ body {
   height: var(--bubble-radius);
   border-radius: 50%;
   animation: rotate-up var(--bubble-float-duration) ease-in infinite;
+  pointer-events: none;
 }
+
 .bubble::before {
   position: absolute;
   content: "";
