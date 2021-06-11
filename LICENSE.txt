@@ -1,7 +1,7 @@
 MIT License
 
 Portions Copyright (c) 2021 Guillermo Sanchez
-Portions Copyright (c) 2021 Nikhil Vytal
+Portions Copyright (c) 2021 Nikhil Vytla
 Portions Copyright (c) 2021 Efrain Baez  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
