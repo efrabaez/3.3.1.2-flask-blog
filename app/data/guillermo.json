@@ -3,7 +3,7 @@
     "location": "San Leandro, CA",
     "position": "MLH Production Engineering Fellow",
     "email": "sanguillermo98@gmail.com",
-    "instagram": "https://instagram/membriux",
+    "instagram": "https://instagram.com/membriux",
     "linkedin": "https://linkedin.com/in/membriux",
     "github": "https://github.com/membriux",
     "projects": [
@@ -15,7 +15,7 @@
         },
         {
             "title": "Yelpy",
-            "img": "https://camo.githubusercontent.com/0de660456055f19ece2450651ac0b0bc7e3d8dbd37fafebbbc67dd2ccd95c829/68747470733a2f2f696d6775722e636f6d2f454a47596a686c2e676966",
+            "img": "https://i.imgur.com/qyTUPty.gif",
             "description": "Clone of Yelp app that we use to teach CodePath's iOS Curriculum utilized by more than 300+ students every year.",
             "link": "https://github.com/membriux/Yelpy"
         },
