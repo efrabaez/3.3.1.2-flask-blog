@@ -1,26 +1,13 @@
 [
   {
-    "name": "Guillermo Sanchez",
-    "school": "University of California, Irvine",
-    "github": "https://github.com/membriux",
-    "profile_picture_path": "guillermo.png",
-    "link": "guillermo",
-    "bio": "I am a UC Irvine student studying B.S. in Business Information Management. I come from a small town in Mexico, where there is a great lack of opportunities for youth to show their talent in the field of tech."
-  },
-  {
-    "name": "Nikhil Vytla",
-    "school": "University of North Carolina, Chapel Hill",
-    "github": "https://github.com/nikhil-vytla",
-    "profile_picture_path": "nikhil.png",
-    "link": "nikhil",
-    "bio": "I'm a junior at UNC Chapel Hill double majoring in Computer Science and Statistics! I'm passionate about ethical AI and building tech for social good, especially in expanding equitable access to education and healthcare."
-  },
-  {
-    "name": "Efrain",
-    "school": "Instituto Politecnico Nacional",
-    "github": "https://github.com/efrabaez",
+    "name": "Efraín Báez",
+    "school": "Instituto Politécnico Nacional",
     "profile_picture_path": "efra.png",
     "link": "efrain",
+    "github": "https://github.com/efrabaez",
+    "linkedIn": "https://www.linkedin.com/in/efra%C3%ADn-germ%C3%A1n-b%C3%A1ez-rubio-b7a24a1a7/",
+    "twitter": "https://twitter.com/EfrabaezG",
+    "discord": "https://discord.com/users/174697930354196480",
     "bio": "I'm Efrain, currently enrolled in a Telematics B.S. at IPN in Mexico. I love to learn, teach and help the community with new tech stuff. I want to make a community where everyone can get a chance to develop their skills."
   }
 ]
