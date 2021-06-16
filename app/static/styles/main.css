@@ -11,17 +11,26 @@ p, h1, h2, h3, h4, h5, h6, button {
 }
 
 .vertical-center {
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
 .btn-portfolio{
-    background-color: #1D539F;
+    background-color: #F8B92A;
 }
 
 .card-text-align{
     text-align: justify;
 }
 
-.img-frame{
-    border: 3px solid white;
+.img-align{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 768px) {
+    .vertical-center {
+        margin-top: 5rem;
+    }
 }
