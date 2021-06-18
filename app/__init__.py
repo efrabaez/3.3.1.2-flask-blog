@@ -24,7 +24,8 @@ def profile(profile):
     return render_template('profile.html',
                            profile_data=profile_data)
 
-@app.route('/health/')
+
+@app.route('/health')
 def health():
     return {'message': 'Healthy'}
 
