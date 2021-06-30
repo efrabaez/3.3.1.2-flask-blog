@@ -83,11 +83,11 @@ def login():
             return error, 418
     
     ## TODO: Return a login page
+
     return render_template('login.html',
                             title="MLH Fellow",
                             url=os.getenv("URL"),
                             random_background=get_random_background())
-
 
 
 @app.route('/health')
