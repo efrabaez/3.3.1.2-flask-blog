@@ -9,3 +9,4 @@ __pycache__
 .idea
 run.sh
 flask.sqlite
+nginx-cerbot.env
