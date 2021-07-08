@@ -32,3 +32,4 @@ jobs:
         with:
           black: true
           flak8: true
+          auto_fix: true
