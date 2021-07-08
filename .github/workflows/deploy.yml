@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   # Trigger the workflow on push or pull reques,
-  # but only for the master branc
+  # but only for the master branch
   push:
     branches:
       - master
