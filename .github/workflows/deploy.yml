@@ -38,5 +38,5 @@ jobs:
           ssh my-vm 
           'cd ${{ secrets.PROJECT_ROOT }} &&
           git fetch && git reset --hard origin/master &&
-          docker-compose build -d --build
+          docker-compose build --build -d
           '
