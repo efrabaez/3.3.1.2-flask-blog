@@ -39,4 +39,5 @@ jobs:
           'cd ${{ secrets.PROJECT_ROOT }} &&
           git fetch && git reset --hard origin/master &&
           docker-compose up -d --build
+          docker-compose ps
           '
