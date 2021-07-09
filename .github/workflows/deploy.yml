@@ -49,6 +49,7 @@ jobs:
       - name: Deployment failure
         if: ${{ failure() }}
         run: >-
+          ssh my-vm 
           '
-          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 🚨 Deployment Failed!"
+          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚨 Deployment Failed!"
           '
