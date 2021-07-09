@@ -44,5 +44,5 @@ jobs:
           docker-compose up -d --build &&
           docker-compose ps &&
           curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful!" &&
-          bash deploy_test.sh
+          bash deploy-test.sh
           '
