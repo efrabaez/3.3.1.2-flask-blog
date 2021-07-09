@@ -39,5 +39,6 @@ jobs:
           'cd ${{ secrets.PROJECT_ROOT }} &&
           git fetch && git reset --hard origin/master &&
           docker-compose up -d --build &&
-          docker-compose ps
+          docker-compose ps &&
+          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful!"
           '
