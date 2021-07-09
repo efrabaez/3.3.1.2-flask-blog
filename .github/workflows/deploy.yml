@@ -43,8 +43,8 @@ jobs:
           git fetch && git reset --hard origin/master &&
           docker-compose up -d --build &&
           docker-compose ps &&
-          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful!" &&
-          bash prod-test.sh
+          bash prod-test.sh &&
+          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful!"
           '
       - name: Deployment failure
         if: ${{ failure() }}
