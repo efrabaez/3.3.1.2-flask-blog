@@ -33,4 +33,4 @@ jobs:
           black: true
           flake8: true
           auto_fix: true
-          exclude: "migrations/*
+          exclude: "migrations/*"
