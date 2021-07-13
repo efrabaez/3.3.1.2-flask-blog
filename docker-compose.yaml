@@ -16,7 +16,7 @@ services:
         env_file: 
             - .env
         volumes:
-            - mydatabase:/var/lib/postgresql/data   
+            - mydatabase:/var/lib/postgresql/data
 
     nginx:
         image: jonasal/nginx-certbot:latest
